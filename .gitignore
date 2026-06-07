@@ -1,0 +1,14 @@
+# Ignore the virtual environment
+.venv/
+venv/
+env/
+
+# Ignore the dataset images (Do NOT push 4,000 images)
+train/
+Closed_Eyes/
+Open_Eyes/
+
+# Ignore Gradio cache and Python cache
+.gradio/
+__pycache__/
+*.pyc
